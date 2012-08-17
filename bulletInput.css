@@ -1,12 +1,25 @@
-.bulletInput-input
+﻿#page
 {
-    outline: none;
-    background-color: transparent;
-    border-style: none;
-    width: 100%;
+    position: absolute;
+    width: 800px;
+    left: 50%;
+    margin-left: -400px;
 }
 
-.nobullet
+.bulletInput-input
 {
-    list-style-type: none;
+    border-style: none;
+    background-color: transparent;
+    outline-style: none;
+    width: 95%;
+}
+
+.bulletInput-nobullet
+{
+    list-style-type: none;    
+}
+
+.bulletInput-container
+{
+    margin-top: -10px;
 }
